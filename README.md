@@ -1,6 +1,17 @@
 ### Coding Exercise
 
 #### 1. What is the output of below code
+```javascript
+const user = {
+  id: 339,
+  name: 'Fred',
+  age: 42
+};
+const {name} = user;
+console.log(name);
+```
+
+#### 1. What is the output of below code
 
 ```javascript
 import { useState } from 'react';
