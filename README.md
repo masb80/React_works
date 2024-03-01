@@ -23,6 +23,11 @@ const user = {
 const {education: {degree}} = user;
 console.log(degree); 
 ```
+#### 3. What is the output of below code
+```javascript
+[a, b, ...rest] = [10, 20, 30, 40, 50];
+console.log(rest); 
+```
 
 #### 1. What is the output of below code
 
