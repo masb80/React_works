@@ -1,6 +1,6 @@
 ### Coding Exercise
 
-#### 1. What is the output of below code
+#### 1. What is the output of below code, ES6 Destructuring
 ```javascript
 const user = {
   id: 339,
@@ -10,7 +10,7 @@ const user = {
 const {name} = user;
 console.log(name);
 ```
-#### 2. What is the output of below code
+#### 2. What is the output of below code, ES6 Destructuring
 ```javascript
 const user = {
   id: 339,
@@ -23,7 +23,7 @@ const user = {
 const {education: {degree}} = user;
 console.log(degree); 
 ```
-#### 3. What is the output of below code
+#### 3. What is the output of below code, ES6 Destructuring
 ```javascript
 let a, b, rest;
 [a, b, ...rest] = [10, 20, 30, 40, 50];
