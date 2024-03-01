@@ -29,6 +29,32 @@ let a, b, rest;
 [a, b, ...rest] = [10, 20, 30, 40, 50];
 console.log(rest); 
 ```
+#### 4. What is the output of below code, ES6 Destructuring
+```javascript
+const student={
+  col_name:"aa',
+  rol_no : 1,
+  college:{
+    code:23,
+    name:'test',
+    address:{
+      street:12,
+      postal_code:23456
+    },
+
+  },
+}
+
+  const{
+    college:{code},
+    college:{address:{postal_code},
+    },
+
+  } = student;
+console.log(code);
+console.log(postal_code);
+
+```
 
 #### 1. What is the output of below code
 
