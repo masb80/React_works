@@ -10,6 +10,19 @@ const user = {
 const {name} = user;
 console.log(name);
 ```
+#### 2. What is the output of below code
+```javascript
+const user = {
+  id: 339,
+  name: 'Fred',
+  age: 42,
+  education: {
+    degree: 'Masters'
+  }
+};
+const {education: {degree}} = user;
+console.log(degree); 
+```
 
 #### 1. What is the output of below code
 
