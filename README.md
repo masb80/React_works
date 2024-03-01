@@ -32,7 +32,7 @@ console.log(rest);
 #### 4. What is the output of below code, ES6 Destructuring
 ```javascript
 const student={
-  col_name:"aa',
+  col_name:'aa',
   rol_no : 1,
   college:{
     code:23,
