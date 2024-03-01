@@ -25,6 +25,7 @@ console.log(degree);
 ```
 #### 3. What is the output of below code
 ```javascript
+let a, b, rest;
 [a, b, ...rest] = [10, 20, 30, 40, 50];
 console.log(rest); 
 ```
